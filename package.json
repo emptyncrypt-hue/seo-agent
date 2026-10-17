@@ -3,6 +3,7 @@
   "version": "1.7.0",
   "description": "An automated, Cloudflare-based SEO agent for large content sites.",
   "type": "module",
+  "engines": { "node": "^22.12.0 || >=24.0.0" },
   "license": "MIT",
   "author": "Alan Wizemann",
   "repository": {
