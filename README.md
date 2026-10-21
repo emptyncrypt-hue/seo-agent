@@ -52,7 +52,7 @@ Daily cron (and `POST /run` on demand):
 ## Setup
 
 Requirements: a Cloudflare account on the **Workers Paid plan** (the drafting queue
-requires it), wrangler ≥ 4, Node ≥ 18, and a site that serves a `sitemap.xml` — a plain
+requires it), wrangler ≥ 4, Node 22.12+ on 22.x or Node 24+, and a site that serves a `sitemap.xml` — a plain
 `<urlset>`, or a `<sitemapindex>` whose child sitemaps are fetched one level deep — and an
 edge injector able to read KV overrides (see [below](#connecting-your-site-the-injector-side)).
 
